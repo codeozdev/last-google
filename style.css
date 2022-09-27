@@ -1,0 +1,176 @@
+html,
+body {
+    font-family: arial, sans-serif;
+    color: #bdc1c6;
+    background: #202124;
+}
+
+.right_panel {
+    height: 48px;
+}
+
+.full {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    text-align: center;
+}
+
+.yazılar {
+    color: #fff;
+    width: 170px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
+}
+
+.yazılar a {
+    color: #fff;
+    height: 24px;
+}
+
+.simge {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 96px;
+    height: 48px;
+}
+
+svg {
+    width: 24px;
+    height: 24px;
+    fill: #fff;
+}
+
+.avatar {
+    height: 32px;
+    width: 32px;
+    border-radius: 50px;
+}
+
+.resim {
+    height: 150px;
+
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+
+.orta {
+    height: 150px;
+    width: 375px;
+}
+
+.indir {
+    background-color: #fff;
+    border-radius: 5px;
+    padding: 2px;
+    margin-bottom: 20px;
+}
+
+.search {
+    height: 140px;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+}
+
+
+
+input {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 3;
+    height: 44px;
+    background: #202124;
+    border: 1px solid #5f6368;
+    box-shadow: none;
+    border-radius: 24px;
+    margin: 0 auto;
+    width: auto;
+    width: 584px;
+    outline: none;
+}
+
+input:hover {
+    background-color: #5f6368;
+}
+
+button {
+    margin: 11px 4px;
+    font-size: 20px;
+    border: 1px solid #303134;
+    background-color: #303134;
+    border-radius: 4px;
+    color: #e8eaed;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    margin: 11px 4px;
+    padding: 0 16px;
+    line-height: 27px;
+    height: 36px;
+    min-width: 54px;
+    text-align: center;
+    cursor: pointer;
+    user-select: none;
+}
+
+.arama_icon {
+    position: relative;
+    bottom: 35px;
+    right: 270px;
+}
+
+.voice>img {
+    position: relative;
+    bottom: 62px;
+    left: 260px;
+    width: 24px;
+}
+
+.btn {
+    position: relative;
+    bottom: 40px;
+}
+
+p>a {
+    color: #8ab4f8;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+footer {
+    position: fixed;
+    bottom: 0px;
+    left: 0px;
+    width: 100%;
+    height: 90px;
+    padding: 15px;
+    background-color: #101111;
+    color: #999DA2;
+    font-family: arial, sans-serif;
+
+}
+
+footer>div {
+    font-size: 15px;
+    padding: 0 0 0 10px;
+}
+
+.alt_bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 0px 30px 0px 10px;
+    font-size: 17px;
+}
+
+.alt_bar a {
+    text-decoration: none;
+    color: #999DA2;
+    margin: 0px 10px 0px 0px;
+}
+
